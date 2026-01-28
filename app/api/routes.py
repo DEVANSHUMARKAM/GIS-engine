@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter # type: ignore
 from app.schemas.request import AnalyzeRequest
 from app.services.analysis_service import analyze_polygon_service
 

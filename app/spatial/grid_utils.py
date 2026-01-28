@@ -1,4 +1,4 @@
-from shapely.geometry import Polygon, box
+from shapely.geometry import Polygon, box # type: ignore
 import math
 
 def create_grid(coordinates, cell_size_meters=500):
